@@ -9,12 +9,7 @@ you can install kubectl with this basic bash script.
 git clone https://github.com/neslihanbukte/kubectl-helm-installer.git 
 cd kubectl-helm-installer
 ```
-2. make the script executable:
+2. make the script executable and run it:
 ```bash
-chmod +x install-kubectl-helm.sh 
-```
-
-3. run the script: 
-```bash
-./install-kubectl-helm.sh
+chmod +x install-kubectl-helm.sh && ./install-kubectl-helm.sh
 ```
