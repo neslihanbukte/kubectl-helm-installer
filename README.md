@@ -1,10 +1,17 @@
-# Kubectl & Helm Install Script (Ubuntu)
+# kubectl & helm install script (ubuntu)
 
-Bu repo, Ubuntu üzerinde **kubectl** ve **helm** kurulumunu kolaylaştıran bir `install-tools.sh` scripti içerir.
+you can install kubectl with this basic bash script.
 
-## 🚀 Kurulum
+ ## installation
 
-1. Scripti indirin:
+1. clone the repository:
    ```bash
-   git clone https://github.com/kullaniciadi/kubectl-helm-install.git
-   cd kubectl-helm-install
+   git clone https://github.com/your-username/kubectl-helm-installer.git
+   cd kubectl-helm-installer
+
+2. make the script executable:
+```bash
+chmod +x install-kubectl-helm.sh 
+
+3. run the script: 
+./install-kubectl-helm.sh
